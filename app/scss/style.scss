@@ -356,16 +356,16 @@
 
 	dt {
 		position: relative;
-
 		font-size: 20px;
 		font-weight: 700;
 		cursor: pointer;
+		padding-right: 20px;
 
 		&::after,
 		&::before {
 			content: "";
 			position: absolute;
-			right: 20px;
+			right: 0;
 			top: 50%;
 			transform: translateY(-50%);
 			width: 11px;
